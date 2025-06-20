@@ -6,3 +6,10 @@ var result = marks.find(function(num){
     var mainRes = num >=34 ? "Your are pass" : num <21 ? "Your are losser" : "You are fail"
     console.log(mainRes)
 })
+
+var number = [2,4,5,6,7,8.10]
+
+var numberFunction = number.find(function(resNum){
+    var mainResult = resNum % 2 == 0 ? "Even" : "Odd"
+    console.log(mainResult);
+})
