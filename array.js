@@ -13,3 +13,13 @@ var numberFunction = number.find(function(resNum){
     var mainResult = resNum % 2 == 0 ? "Even" : "Odd"
     console.log(mainResult);
 })
+
+var students = [
+    {name:"Labib", marks:25},
+    {name:"Anas", marks:55},
+    {name:"Rahman", marks: 74}
+]
+
+var student = students.map(stu=> `${stu.name} : ${stu.marks >=33 ? "Pass" : "fail"}`)
+console.log(student)
+
