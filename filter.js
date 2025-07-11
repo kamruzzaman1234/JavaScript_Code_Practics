@@ -32,4 +32,18 @@ console.log(`Your Fail students ${JSON.stringify(failPeople)}`)
 
 const mixedType = [1,"Hello", true, "String"]
 const typeString = mixedType.filter(item=> typeof item === "string")
-console.log(`Your String value is ${typeString}`)
+console.log(`Your String value is ${typeString}`);
+
+
+
+// Active user ber korar code 
+
+const users = [
+    {name:"abil", active:true},
+    {name:"hasan", active:false},
+    {name:"nihan", active:true},
+    {name:"nasib", active:true}
+]
+
+const activeUser = users.filter(user=> user.active)
+console.log(activeUser)
