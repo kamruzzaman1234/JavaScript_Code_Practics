@@ -23,3 +23,10 @@ var students = [
 var student = students.map(stu=> `${stu.name} : ${stu.marks >=33 ? "Pass" : "fail"}`)
 console.log(student)
 
+
+var nums = [3,45,5,6,7,8]
+var res = nums.splice(1,3,4666);
+
+console.log(nums)
+console.log(res)
+
