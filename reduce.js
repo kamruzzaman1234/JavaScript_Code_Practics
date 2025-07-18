@@ -18,3 +18,13 @@ const resultLetter = letters.reduce((a,b)=>{
 });
 
 console.log(resultLetter);
+
+const condition = [1,2,4,6,7,8];
+
+const resCondition = condition.reduce((acc, curr)=>{
+    if(curr % 2 === 0)acc++
+    return acc
+}, 0)
+
+console.log(`Conditional = ${resCondition}`)
+
